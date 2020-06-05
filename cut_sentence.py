@@ -1,3 +1,11 @@
+def find_all(sent, char):
+    start = 0
+    while True:
+        start = sent.find(char, start)
+        if start == -1: return
+        yield start
+        start += len(char)
+
 def cut_sentence(sentence):
     endsyms, preidx = [], 0
     for i in range(len(sentence)):
