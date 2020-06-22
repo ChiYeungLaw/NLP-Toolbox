@@ -13,7 +13,7 @@ use regular expression to cut Chinese sentences
 
 use regular expression to find all the none Chinese characeters in the datasets
 
-#### ngramLM.py
+### ngramLM.py
 
 You can use this file to train a Chinese NGram Language Model.
 
@@ -27,3 +27,7 @@ nltk
 jieba
 dill
 ```
+
+### baidu_ppl.py
+
+use baidu DNN Language Model to compute a sentence's ppl
